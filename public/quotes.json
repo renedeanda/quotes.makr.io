@@ -1,0 +1,1834 @@
+{
+  "quotes": [
+      {
+          "quote": "Be yourself; everyone else is already taken.",
+          "author": "Oscar Wilde",
+          "day": 1
+      },
+      {
+          "quote": "It's the repetition of affirmations that leads to belief. And once that belief becomes a deep conviction, things begin to happen.",
+          "author": "Muhammad Ali",
+          "day": 2
+      },
+      {
+          "quote": "A grateful mind is a great mind, which eventually attracts to itself great things.",
+          "author": "Plato",
+          "day": 3
+      },
+      {
+          "quote": "Compassion and happiness are not a sign of weakness but a sign of strength.",
+          "author": "Dalai Lama",
+          "day": 4
+      },
+      {
+          "quote": "It is not joy that makes us grateful; it is gratitude that makes us joyful.",
+          "author": "David Steindl-Rast",
+          "day": 5
+      },
+      {
+          "quote": "Be kind whenever possible. It is always possible.",
+          "author": "Dalai Lama",
+          "day": 6
+      },
+      {
+          "quote": "Learn from yesterday, live for today, hope for tomorrow.",
+          "author": "Albert Einstein",
+          "day": 7
+      },
+      {
+          "quote": "Love is the flower you've got to let grow.",
+          "author": "John Lennon",
+          "day": 8
+      },
+      {
+          "quote": "I never think of the future. It comes soon enough.",
+          "author": "Albert Einstein",
+          "day": 9
+      },
+      {
+          "quote": "Wisdom is the supreme part of happiness.",
+          "author": "Sophocles",
+          "day": 10
+      },
+      {
+          "quote": "It takes both sunshine and rain to make a rainbow.",
+          "author": "",
+          "day": 11
+      },
+      {
+          "quote": "Only do what your heart tells you.",
+          "author": "Princess Diana",
+          "day": 12
+      },
+      {
+          "quote": "Luck is what happens when preparation meets opportunity.",
+          "author": "Seneca",
+          "day": 13
+      },
+      {
+          "quote": "Love all, trust a few, do wrong to none.",
+          "author": "William Shakespeare",
+          "day": 14
+      },
+      {
+          "quote": "Smile, breathe, and go slowly.",
+          "author": "Thich Nhat Hanh",
+          "day": 15
+      },
+      {
+          "quote": "Some pursue happiness, others create it.",
+          "author": "",
+          "day": 16
+      },
+      {
+          "quote": "Do something wonderful, people may imitate it.",
+          "author": "Albert Schweitzer",
+          "day": 17
+      },
+      {
+          "quote": "You give before you get.",
+          "author": "Napoleon Hill",
+          "day": 18
+      },
+      {
+          "quote": "What we think, we become.",
+          "author": "Buddha",
+          "day": 19
+      },
+      {
+          "quote": "Everyone smiles in the same language.",
+          "author": "",
+          "day": 20
+      },
+      {
+          "quote": "You have to believe in yourself.",
+          "author": "Sun Tzu",
+          "day": 21
+      },
+      {
+          "quote": "You can't stop the waves, but you can learn to surf.",
+          "author": "Jon Kabat-Zinn",
+          "day": 22
+      },
+      {
+          "quote": "Growth itself contains the germ of happiness.",
+          "author": "Pearl Buck",
+          "day": 23
+      },
+      {
+          "quote": "Wherever you go, go with all your heart.",
+          "author": "Confucius",
+          "day": 24
+      },
+      {
+          "quote": "Good luck is another name for tenacity of purpose.",
+          "author": "Ralph Waldo Emerson",
+          "day": 25
+      },
+      {
+          "quote": "It is better to travel well than to arrive.",
+          "author": "Buddha",
+          "day": 26
+      },
+      {
+          "quote": "Each day provides its own gifts.",
+          "author": "Marcus Aurelius",
+          "day": 27
+      },
+      {
+          "quote": "Life isn't about finding yourself. Life is about creating yourself.",
+          "author": "George Bernard Shaw",
+          "day": 28
+      },
+      {
+          "quote": "Everything you can imagine is real.",
+          "author": "Pablo Picasso",
+          "day": 29
+      },
+      {
+          "quote": "Life is the flower for which love is the honey.",
+          "author": "Victor Hugo",
+          "day": 30
+      },
+      {
+          "quote": "Loss is nothing else but change, and change is Nature's delight.",
+          "author": "Marcus Aurelius",
+          "day": 31
+      },
+      {
+          "quote": "There is no way to happiness, happiness is the way.",
+          "author": "Thich Nhat Hanh",
+          "day": 32
+      },
+      {
+          "quote": "The day always looks brighter from behind a smile.",
+          "author": "",
+          "day": 33
+      },
+      {
+          "quote": "Our strength grows out of our weaknesses.",
+          "author": "Ralph Waldo Emerson",
+          "day": 34
+      },
+      {
+          "quote": "Happiness is found in doing, not merely possessing.",
+          "author": "Napoleon Hill",
+          "day": 35
+      },
+      {
+          "quote": "The best way out is always through.",
+          "author": "Robert Frost",
+          "day": 36
+      },
+      {
+          "quote": "May our hearts garden of awakening bloom with hundreds of flowers.",
+          "author": "Thich Nhat Hanh",
+          "day": 37
+      },
+      {
+          "quote": "Keep yourself to the sunshine and you cannot see the shadow.",
+          "author": "Helen Keller",
+          "day": 38
+      },
+      {
+          "quote": "The mind is everything. What you think you become.",
+          "author": "Buddha",
+          "day": 39
+      },
+      {
+          "quote": "A weed is no more than a flower in disguise.",
+          "author": "James Lowell",
+          "day": 40
+      },
+      {
+          "quote": "Kind words do not cost much. Yet they accomplish much.",
+          "author": "Blaise Pascal",
+          "day": 41
+      },
+      {
+          "quote": "Don't cry because it's over. Smile because it happened.",
+          "author": "Dr. Seuss",
+          "day": 42
+      },
+      {
+          "quote": "Time you enjoy wasting, was not wasted.",
+          "author": "John Lennon",
+          "day": 43
+      },
+      {
+          "quote": "Sadness flies away on the wings of time.",
+          "author": "Jean de la Fontaine",
+          "day": 44
+      },
+      {
+          "quote": "If you light a lamp for somebody, it will also brighten your path.",
+          "author": "Buddha",
+          "day": 45
+      },
+      {
+          "quote": "All seasons are beautiful for the person who carries happiness within.",
+          "author": "Horace Friess",
+          "day": 46
+      },
+      {
+          "quote": "Love doesn't make the world go round, love is what makes the ride worthwhile.",
+          "author": "Elizabeth Browning",
+          "day": 47
+      },
+      {
+          "quote": "I believe that we are fundamentally the same and have the same basic potential.",
+          "author": "Dalai Lama",
+          "day": 48
+      },
+      {
+          "quote": "Be thankful when you don't know something for it gives you the opportunity to learn.",
+          "author": "",
+          "day": 49
+      },
+      {
+          "quote": "In separateness lies the world's great misery, in compassion lies the world's true strength.",
+          "author": "Buddha",
+          "day": 50
+      },
+      {
+          "quote": "How we spend our days is, of course, how we spend our lives.",
+          "author": "Annie Dillard",
+          "day": 51
+      },
+      {
+          "quote": "Begin at once to live and count each separate day as a separate life.",
+          "author": "Seneca",
+          "day": 52
+      },
+      {
+          "quote": "It is not so important to know everything as to appreciate what we learn.",
+          "author": "Hannah More",
+          "day": 53
+      },
+      {
+          "quote": "To be upset over what you don't have is to waste what you do have.",
+          "author": "Ken S. Keyes",
+          "day": 54
+      },
+      {
+          "quote": "The doors we open and close each day decide the lives we live.",
+          "author": "Flora Whittemore",
+          "day": 55
+      },
+      {
+          "quote": "The best way to pay for a lovely moment is to enjoy it.",
+          "author": "Richard Bach",
+          "day": 56
+      },
+      {
+          "quote": "Happiness comes when your work and words are of benefit to yourself and others.",
+          "author": "Buddha",
+          "day": 57
+      },
+      {
+          "quote": "Yeah we all shine on, like the moon, and the stars, and the sun.",
+          "author": "John Lennon",
+          "day": 58
+      },
+      {
+          "quote": "Life is like riding a bicycle. To keep your balance you must keep moving.",
+          "author": "Albert Einstein",
+          "day": 59
+      },
+      {
+          "quote": "We should all be thankful for those people who rekindle the inner spirit.",
+          "author": "Albert Schweitzer",
+          "day": 60
+      },
+      {
+          "quote": "I cannot make my days longer so I strive to make them better.",
+          "author": "Henry David Thoreau",
+          "day": 61
+      },
+      {
+          "quote": "Tension is who you think you should be. Relaxation is who you are.",
+          "author": "Chinese proverb",
+          "day": 62
+      },
+      {
+          "quote": "Be what you are. This is the first step toward becoming better than you are.",
+          "author": "Julius Charles Hare",
+          "day": 63
+      },
+      {
+          "quote": "Love and compassion open our own inner life, reducing stress, distrust and loneliness.",
+          "author": "Dalai Lama",
+          "day": 64
+      },
+      {
+          "quote": "The way is not in the sky. The way is in the heart.",
+          "author": "Buddha",
+          "day": 65
+      },
+      {
+          "quote": "Most people are about as happy as they make up their minds to be",
+          "author": "Abraham Lincoln",
+          "day": 66
+      },
+      {
+          "quote": "You yourself, as much as anybody in the entire universe, deserve your love and affection.",
+          "author": "Buddha",
+          "day": 67
+      },
+      {
+          "quote": "If you change the way you look at things, the things you look at change.",
+          "author": "Wayne Dyer",
+          "day": 68
+      },
+      {
+          "quote": "Don't judge each day by the harvest you reap but by the seeds you plant.",
+          "author": "Robert Louis Stevenson",
+          "day": 69
+      },
+      {
+          "quote": "If you spend your whole life waiting for the storm, you'll never enjoy the sunshine.",
+          "author": "Morris West",
+          "day": 70
+      },
+      {
+          "quote": "Every day may not be good, but there's something good in every day.",
+          "author": "",
+          "day": 71
+      },
+      {
+          "quote": "If you cannot do great things, do small things in a great way.",
+          "author": "Napoleon Hill",
+          "day": 72
+      },
+      {
+          "quote": "By going beyond your own problems and taking care of others, you gain inner strength, self-confidence, courage, and a greater sense of calm.",
+          "author": "Dalai Lama",
+          "day": 73
+      },
+      {
+          "quote": "It is only with the heart that one can see rightly, what is essential is invisible to the eye.",
+          "author": "Antoine de Saint-Exupery",
+          "day": 74
+      },
+      {
+          "quote": "Let us be grateful to people who make us happy; they are the charming gardeners who make our souls blossom.",
+          "author": "Marcel Proust",
+          "day": 75
+      },
+      {
+          "quote": "The thoughts we choose to think are the tools we use to paint the canvas of our lives.",
+          "author": "Louise Hay",
+          "day": 76
+      },
+      {
+          "quote": "Be glad of life because it gives you the chance to love, to work, to play, and to look up at the stars.",
+          "author": "Henry Van Dyke",
+          "day": 77
+      },
+      {
+          "quote": "If we have a positive mental attitude, then even when surrounded by hostility, we shall not lack inner peace.",
+          "author": "Dalai Lama",
+          "day": 78
+      },
+      {
+          "quote": "There is only one corner of the universe you can be certain of improving, and that's your own self.",
+          "author": "Aldous Huxley",
+          "day": 79
+      },
+      {
+          "quote": "You're not obligated to win. You're obligated to keep trying to do the best you can every day.",
+          "author": "Marian Wright Edelman",
+          "day": 80
+      },
+      {
+          "quote": "You cannot find yourself by going into the past. You can find yourself by coming into the present.",
+          "author": "Eckhart Tolle",
+          "day": 81
+      },
+      {
+          "quote": "Of course there is no formula for success except perhaps an unconditional acceptance of life and what it brings.",
+          "author": "Arthur Rubinstein",
+          "day": 82
+      },
+      {
+          "quote": "The thought manifests as the word. The word manifests as the deed. The deed develops into habit. And the habit hardens into character.",
+          "author": "Buddha",
+          "day": 83
+      },
+      {
+          "quote": "Genuine love should first be directed at oneself - if we do not love ourselves, how can we love others?",
+          "author": "Dalai Lama",
+          "day": 84
+      },
+      {
+          "quote": "Judge nothing, you will be happy. Forgive everything, you will be happier. Love everything, you will be happiest.",
+          "author": "Sri Chinmoy",
+          "day": 85
+      },
+      {
+          "quote": "There is nothing like returning to a place that remains unchanged to find the ways in which you yourself have altered.",
+          "author": "Nelson Mandela",
+          "day": 86
+      },
+      {
+          "quote": "We all live with the objective of being happy; our lives are all different and yet the same.",
+          "author": "Anne Frank",
+          "day": 87
+      },
+      {
+          "quote": "To be beautiful means to be yourself. You don't need to be accepted by others. You need to accept yourself.",
+          "author": "Thich Nhat Hanh",
+          "day": 88
+      },
+      {
+          "quote": "Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it.",
+          "author": "Bruce Lee",
+          "day": 89
+      },
+      {
+          "quote": "Every time you smile at someone, it is an action of love, a gift to that person, a beautiful thing.",
+          "author": "Mother Teresa",
+          "day": 90
+      },
+      {
+          "quote": "The key to transforming our hearts and minds is to have an understanding of how our thoughts and emotions work.",
+          "author": "Dalai Lama",
+          "day": 91
+      },
+      {
+          "quote": "To keep the body in good health is a duty... otherwise we shall not be able to keep our mind strong and clear.",
+          "author": "Buddha",
+          "day": 92
+      },
+      {
+          "quote": "Take no thought of who is right or wrong or who is better than. Be not for or against.",
+          "author": "Bruce Lee",
+          "day": 93
+      },
+      {
+          "quote": "The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself.",
+          "author": "Henry Miller",
+          "day": 94
+      },
+      {
+          "quote": "I believe that a simple and unassuming manner of life is best for everyone, best both for the body and the mind.",
+          "author": "Albert Einstein",
+          "day": 95
+      },
+      {
+          "quote": "Mind is everything - muscle, pieces of rubber. All that I am, I am because of my mind.",
+          "author": "Paavo Nurmi",
+          "day": 96
+      },
+      {
+          "quote": "How wonderful it is that nobody need wait a single moment before starting to improve the world.",
+          "author": "Anne Frank",
+          "day": 97
+      },
+      {
+          "quote": "I'd rather regret the things that I have done than the things that I have not done.",
+          "author": "Lucille Ball",
+          "day": 98
+      },
+      {
+          "quote": "I find hope in the darkest of days, and focus in the brightest. I do not judge the universe.",
+          "author": "Dalai Lama",
+          "day": 99
+      },
+      {
+          "quote": "Blessed is the person who is too busy to worry in the daytime, and too sleepy to worry at night.",
+          "author": "Leo Aikman",
+          "day": 100
+      },
+      {
+          "quote": "People take different roads seeking fulfillment and happiness. Just because they're not on your road doesn't mean they've gotten lost.",
+          "author": "Dalai Lama",
+          "day": 101
+      },
+      {
+          "quote": "Very little is needed to make a happy life; it is all within yourself, in your way of thinking.",
+          "author": "Marcus Aurelius",
+          "day": 102
+      },
+      {
+          "quote": "Treat people as if they were what they ought to be and you help them to become what they are capable of being.",
+          "author": "Johann Wolfgang von Goethe",
+          "day": 103
+      },
+      {
+          "quote": "The most precious gift we can offer anyone is our attention. When mindfulness embraces those we love, they will bloom like flowers.",
+          "author": "Thich Nhat Hanh",
+          "day": 104
+      },
+      {
+          "quote": "I would maintain that thanks are the highest form of thought, and that gratitude is happiness doubled by wonder.",
+          "author": "G. K. Chesterton",
+          "day": 105
+      },
+      {
+          "quote": "To speak gratitude is courteous and pleasant, to enact gratitude is generous and noble, but to live gratitude is to touch Heaven.",
+          "author": "Johannes Gaertner",
+          "day": 106
+      },
+      {
+          "quote": "Wisdom is the reward you get for a lifetime of listening when you'd have preferred to talk.",
+          "author": "Doug Larson",
+          "day": 107
+      },
+      {
+          "quote": "The greatest pleasure I know is to do a good action by stealth, and to have it found out by accident.",
+          "author": "Charles Lamb",
+          "day": 108
+      },
+      {
+          "quote": "To live a pure unselfish life, one must count nothing as one's own in the midst of abundance.",
+          "author": "Buddha",
+          "day": 109
+      },
+      {
+          "quote": "When we seek to discover the best in others, we somehow bring out the best in ourselves.",
+          "author": "William Arthur Ward",
+          "day": 110
+      },
+      {
+          "quote": "Never miss an opportunity to make others happy, even if you have to leave them alone in order to do it.",
+          "author": "",
+          "day": 111
+      },
+      {
+          "quote": "Sometimes your joy is the source of your smile, but sometimes your smile can be the source of your joy.",
+          "author": "Thich Nhat Hanh",
+          "day": 112
+      },
+      {
+          "quote": "The three grand essentials of happiness are: something to do, someone to love, and something to hope for.",
+          "author": "Alexander Chalmers",
+          "day": 113
+      },
+      {
+          "quote": "By living deeply in the present moment we can understand the past better and we can prepare for a better future.",
+          "author": "Thich Nhat Hanh",
+          "day": 114
+      },
+      {
+          "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+          "author": "Ralph Waldo Emerson",
+          "day": 115
+      },
+      {
+          "quote": "There is no duty we so underrate as the duty of being happy. By being happy we sow anonymous benefits upon the world.",
+          "author": "Robert Louis Stevenson",
+          "day": 116
+      },
+      {
+          "quote": "Appreciation can make a day, even change a life. Your willingness to put it into words is all that is necessary.",
+          "author": "Margaret Cousins",
+          "day": 117
+      },
+      {
+          "quote": "When you are content to be simply yourself and don't compare or compete, everybody will respect you.",
+          "author": "Lao Tzu",
+          "day": 118
+      },
+      {
+          "quote": "When you begin to touch your heart or let your heart be touched, you begin to discover that it's bottomless.",
+          "author": "Pema Chodron",
+          "day": 119
+      },
+      {
+          "quote": "The aim of life is self-development. To realize one's nature perfectly, that is what each of us is here for.",
+          "author": "Oscar Wilde",
+          "day": 120
+      },
+      {
+          "quote": "Through meditation and by giving full attention to one thing at a time, we can learn to direct attention where we choose.",
+          "author": "Eknath Easwaran",
+          "day": 121
+      },
+      {
+          "quote": "We could never learn to be brave and patient if there were only joy in the world.",
+          "author": "Helen Keller",
+          "day": 122
+      },
+      {
+          "quote": "If you are patient in one moment of anger, you will escape one hundred days of sorrow.",
+          "author": "Chinese proverb",
+          "day": 123
+      },
+      {
+          "quote": "The greatest good you can do for another is not just share your riches, but reveal to them their own.",
+          "author": "Benjamin Disraeli",
+          "day": 124
+      },
+      {
+          "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+          "author": "Buddha",
+          "day": 125
+      },
+      {
+          "quote": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+          "author": "Marcus Aurelius",
+          "day": 126
+      },
+      {
+          "quote": "What matters is the value we've created in our lives, the people we've made happy and how much we've grown as people.",
+          "author": "Daisaku Ikeda",
+          "day": 127
+      },
+      {
+          "quote": "Everyone has been made for some particular work, and the desire for that work has been put in every heart.",
+          "author": "Rumi",
+          "day": 128
+      },
+      {
+          "quote": "With realization of one's own potential and self-confidence in one's ability, one can build a better world.",
+          "author": "Dalai Lama",
+          "day": 129
+      },
+      {
+          "quote": "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
+          "author": "Franklin Roosevelt",
+          "day": 130
+      },
+      {
+          "quote": "We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world.",
+          "author": "Buddha",
+          "day": 131
+      },
+      {
+          "quote": "You cannot make yourself feel something you do not feel, but you can make yourself do right in spite of your feelings.",
+          "author": "Pearl Buck",
+          "day": 132
+      },
+      {
+          "quote": "Every adversity, every failure, every heartache carries with it the seed of an equal or greater benefit.",
+          "author": "Napoleon Hill",
+          "day": 133
+      },
+      {
+          "quote": "The pain passes, but the beauty remains.",
+          "author": "Pierre Auguste Renoir",
+          "day": 134
+      },
+      {
+          "quote": "I have just three things to teach: simplicity, patience, compassion. These three are your greatest treasures.",
+          "author": "Lao Tzu",
+          "day": 135
+      },
+      {
+          "quote": "Happiness depends upon ourselves.",
+          "author": "Aristotle",
+          "day": 136
+      },
+      {
+          "quote": "When you realize there is nothing lacking, the whole world belongs to you.",
+          "author": "Lao Tzu",
+          "day": 137
+      },
+      {
+          "quote": "Happiness is not something ready made. It comes from your own actions.",
+          "author": "Dalai Lama",
+          "day": 138
+      },
+      {
+          "quote": "No one has ever become poor by giving.",
+          "author": "Anne Frank",
+          "day": 139
+      },
+      {
+          "quote": "Be faithful in small things because it is in them that your strength lies.",
+          "author": "Mother Teresa",
+          "day": 140
+      },
+      {
+          "quote": "Your big opportunity may be right where you are now.",
+          "author": "Napoleon Hill",
+          "day": 141
+      },
+      {
+          "quote": "Give whatever you are doing and whoever you are with the gift of your attention.",
+          "author": "Jim Rohn",
+          "day": 142
+      },
+      {
+          "quote": "Remember that sometimes not getting what you want is a wonderful stroke of luck.",
+          "author": "Dalai Lama",
+          "day": 143
+      },
+      {
+          "quote": "The more light you allow within you, the brighter the world you live in will be.",
+          "author": "Shakti Gawain",
+          "day": 144
+      },
+      {
+          "quote": "Not what we have but what we enjoy constitutes our abundance.",
+          "author": "John Petit-Senn",
+          "day": 145
+      },
+      {
+          "quote": "Self-trust is the first secret of success.",
+          "author": "Ralph Waldo Emerson",
+          "day": 146
+      },
+      {
+          "quote": "Imagination disposes of everything; it creates beauty, justice, and happiness, which are everything in this world.",
+          "author": "Blaise Pascal",
+          "day": 147
+      },
+      {
+          "quote": "Happiness is a Swedish sunset - it is there for all, but most of us look the other way and lose it.",
+          "author": "Mark Twain",
+          "day": 148
+      },
+      {
+          "quote": "Let us always meet each other with smile, for the smile is the beginning of love.",
+          "author": "Mother Teresa",
+          "day": 149
+      },
+      {
+          "quote": "The amount of happiness that you have depends on the amount of freedom you have in your heart.",
+          "author": "Thich Nhat Hanh",
+          "day": 150
+      },
+      {
+          "quote": "In the depth of winter, I finally learned that within me there lay an invincible summer.",
+          "author": "Albert Camus",
+          "day": 151
+      },
+      {
+          "quote": "The best thing about the future is that it only comes one day at a time.",
+          "author": "Abraham Lincoln",
+          "day": 152
+      },
+      {
+          "quote": "Happiness cannot be traveled to, owned, earned, worn or consumed. Happiness is the spiritual experience of living every minute with love, grace and gratitude.",
+          "author": "Denis Waitley",
+          "day": 153
+      },
+      {
+          "quote": "When you dance, your purpose is not to get to a certain place on the floor. It's to enjoy each step along the way.",
+          "author": "Wayne Dyer",
+          "day": 154
+      },
+      {
+          "quote": "Consider that not only do negative thoughts and emotions destroy our experience of peace, they also undermine our health.",
+          "author": "Dalai Lama",
+          "day": 155
+      },
+      {
+          "quote": "The moment one gives close attention to anything, it becomes a mysterious, awesome, indescribably magnificent world in itself.",
+          "author": "Henry Miller",
+          "day": 156
+      },
+      {
+          "quote": "Happiness is when what you think, what you say, and what you do are in harmony.",
+          "author": "Mahatma Gandhi",
+          "day": 157
+      },
+      {
+          "quote": "When you realize how perfect everything is you will tilt your head back and laugh at the sky.",
+          "author": "Buddha",
+          "day": 158
+      },
+      {
+          "quote": "Constant kindness can accomplish much. As the sun makes ice melt, kindness causes misunderstanding, mistrust, and hostility to evaporate.",
+          "author": "Albert Schweitzer",
+          "day": 159
+      },
+      {
+          "quote": "To be aware of a single shortcoming within oneself is more useful than to be aware of a thousand in someone else.",
+          "author": "Dalai Lama",
+          "day": 160
+      },
+      {
+          "quote": "Happiness is a perfume you cannot pour on others without getting a few drops on yourself.",
+          "author": "Ralph Waldo Emerson",
+          "day": 161
+      },
+      {
+          "quote": "Some people are always grumbling because roses have thorns; I am thankful that thorns have roses.",
+          "author": "Alphonse Karr",
+          "day": 162
+      },
+      {
+          "quote": "Know that although in the eternal scheme of things you are small, you are also unique and irreplaceable, as are all your fellow humans everywhere in the world.",
+          "author": "Margaret Laurence",
+          "day": 163
+      },
+      {
+          "quote": "If you let go a little, you will have a little peace. If you let go a lot, you will have a lot of peace.",
+          "author": "Ajahn Chah",
+          "day": 164
+      },
+      {
+          "quote": "There is no need for temples, no need for complicated philosophies. My brain and my heart are my temples; my philosophy is kindness.",
+          "author": "Dalai Lama",
+          "day": 165
+      },
+      {
+          "quote": "I am of the opinion that my life belongs to the community, and as long as I live it is my privilege to do for it whatever I can.",
+          "author": "George Bernard Shaw",
+          "day": 166
+      },
+      {
+          "quote": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.",
+          "author": "Dale Carnegie",
+          "day": 167
+      },
+      {
+          "quote": "The greatest discovery of our generation is that human beings can alter their lives by altering their attitudes of mind. As you think, so shall you be.",
+          "author": "William James",
+          "day": 168
+      },
+      {
+          "quote": "The secret of joy in work is contained in one word, excellence. To know how to do something well is to enjoy it.",
+          "author": "Pearl Buck",
+          "day": 169
+      },
+      {
+          "quote": "By letting it go it all gets done. The world is won by those who let it go. But when you try and try. The world is beyond the winning.",
+          "author": "Lao Tzu",
+          "day": 170
+      },
+      {
+          "quote": "The greatest antidote to insecurity and the sense of fear is compassion, it brings one back to the basis of one's inner strength",
+          "author": "Dalai Lama",
+          "day": 171
+      },
+      {
+          "quote": "When you arise in the morning, think of what a precious privilege it is to be alive - to breathe, to think, to enjoy, to love.",
+          "author": "Marcus Aurelius",
+          "day": 172
+      },
+      {
+          "quote": "Thousands of candles can be lit from a single, and the life of the candle will not be shortened. Happiness never decreases by being shared.",
+          "author": "Buddha",
+          "day": 173
+      },
+      {
+          "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+          "author": "Albert Schweitzer",
+          "day": 174
+      },
+      {
+          "quote": "My advice to you is not to inquire why or whither, but just enjoy your ice cream while its on your plate.",
+          "author": "Thornton Wilder",
+          "day": 175
+      },
+      {
+          "quote": "Arriving at one point is the starting point to another.",
+          "author": "John Dewey",
+          "day": 176
+      },
+      {
+          "quote": "The greatest part of our happiness depends on our dispositions, not our circumstances.",
+          "author": "Martha Washington",
+          "day": 177
+      },
+      {
+          "quote": "It is only possible to live happily ever after on a day to day basis.",
+          "author": "Margaret Bonnano",
+          "day": 178
+      },
+      {
+          "quote": "Action may not always bring happiness, but there is no happiness without action.",
+          "author": "Benjamin Disraeli",
+          "day": 179
+      },
+      {
+          "quote": "Four steps to achievement: Plan purposefully. Prepare prayerfully. Proceed positively. Pursue persistently.",
+          "author": "William Arthur Ward",
+          "day": 180
+      },
+      {
+          "quote": "Always be mindful of the kindness and not the faults of others.",
+          "author": "Buddha",
+          "day": 181
+      },
+      {
+          "quote": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.",
+          "author": "Marcus Aurelius",
+          "day": 182
+      },
+      {
+          "quote": "Success is getting what you want. Happiness is wanting what you get.",
+          "author": "Dale Carnegie",
+          "day": 183
+      },
+      {
+          "quote": "Don't judge each day by the harvest you reap but by the seeds that you plant.",
+          "author": "Robert Stevenson",
+          "day": 184
+      },
+      {
+          "quote": "Peace cannot be kept by force. It can only be achieved by understanding.",
+          "author": "Albert Einstein",
+          "day": 185
+      },
+      {
+          "quote": "As you think, so shall you become.",
+          "author": "Bruce Lee",
+          "day": 186
+      },
+      {
+          "quote": "Happiness does not come from having much, but from being attached to little.",
+          "author": "Cheng Yen",
+          "day": 187
+      },
+      {
+          "quote": "Every gift from a friend is a wish for your happiness.",
+          "author": "Richard Bach",
+          "day": 188
+      },
+      {
+          "quote": "Everything has beauty, but not everyone sees it.",
+          "author": "Confucius",
+          "day": 189
+      },
+      {
+          "quote": "When you learn, teach. When you get, give.",
+          "author": "Maya Angelou",
+          "day": 190
+      },
+      {
+          "quote": "If you smile when no one else is around, you really mean it.",
+          "author": "Andy Rooney",
+          "day": 191
+      },
+      {
+          "quote": "The heart has eyes which the brain knows nothing of.",
+          "author": "Charles Perkhurst",
+          "day": 192
+      },
+      {
+          "quote": "Happiness mainly comes from our own attitude, rather than from external factors.",
+          "author": "Dalai Lama",
+          "day": 193
+      },
+      {
+          "quote": "Act as if what you do makes a difference. It does.",
+          "author": "William James",
+          "day": 194
+      },
+      {
+          "quote": "Do good by stealth, and blush to find it fame.",
+          "author": "Alexander Pope",
+          "day": 195
+      },
+      {
+          "quote": "We don't stop playing because we grow old; we grow old because we stop playing.",
+          "author": "George Bernard Shaw",
+          "day": 196
+      },
+      {
+          "quote": "I think; therefore I am.",
+          "author": "René Descartes",
+          "day": 197
+      },
+      {
+          "quote": "Always tell the truth. That way, you don't have to remember what you said.",
+          "author": "Mark Twain",
+          "day": 198
+      },
+      {
+          "quote": "Life is what happens to you while you're busy making other plans.",
+          "author": "John Lennon",
+          "day": 199
+      },
+      {
+          "quote": "Doing what you love is the cornerstone of having abundance in your life.",
+          "author": "Wayne Dyer",
+          "day": 200
+      },
+      {
+          "quote": "Kindness is the golden chain by which society is bound together.",
+          "author": "Johann Wolfgang von Goethe",
+          "day": 201
+      },
+      {
+          "quote": "You need chaos in your soul to give birth to a dancing star.",
+          "author": "Friedrich Nietzsche",
+          "day": 202
+      },
+      {
+          "quote": "No yesterdays are ever wasted for those who give themselves to today.",
+          "author": "Brendan Francis",
+          "day": 203
+      },
+      {
+          "quote": "Positive thinking will let you do everything better than negative thinking will.",
+          "author": "Zig Ziglar",
+          "day": 204
+      },
+      {
+          "quote": "We shall never know all the good that a simple smile can do.",
+          "author": "Mother Teresa",
+          "day": 205
+      },
+      {
+          "quote": "Each day can be one of triumph if you keep up your interests.",
+          "author": "George Matthew Adams",
+          "day": 206
+      },
+      {
+          "quote": "The place to improve the world is first in one's own heart and head and hands.",
+          "author": "Robert M. Pirsig",
+          "day": 207
+      },
+      {
+          "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+          "author": "Robert Frost",
+          "day": 208
+      },
+      {
+          "quote": "Life is a succession of moments. To live each one is to succeed.",
+          "author": "Corita Kent",
+          "day": 209
+      },
+      {
+          "quote": "Most of the shadows of life are caused by standing in our own sunshine.",
+          "author": "Ralph Waldo Emerson",
+          "day": 210
+      },
+      {
+          "quote": "Good actions give strength to ourselves and inspire good actions in others.",
+          "author": "Plato",
+          "day": 211
+      },
+      {
+          "quote": "In the middle of every difficulty lies opportunity.",
+          "author": "Albert Einstein",
+          "day": 212
+      },
+      {
+          "quote": "If we are not fully ourselves, truly in the present moment, we miss everything.",
+          "author": "Thich Nhat Hanh",
+          "day": 213
+      },
+      {
+          "quote": "No act of kindness, no matter how small, is ever wasted.",
+          "author": "Aesop",
+          "day": 214
+      },
+      {
+          "quote": "Great acts are made up of small deeds.",
+          "author": "Lao Tzu",
+          "day": 215
+      },
+      {
+          "quote": "Your body is precious. It is our vehicle for awakening. Treat it with care.",
+          "author": "Buddha",
+          "day": 216
+      },
+      {
+          "quote": "The future is completely open, and we are writing it moment to moment.",
+          "author": "Pema Chodron",
+          "day": 217
+      },
+      {
+          "quote": "Whenever something negative happens to you, there is a deep lesson concealed within it.",
+          "author": "Eckhart Tolle",
+          "day": 218
+      },
+      {
+          "quote": "Be sure you put your feet in the right place, then stand firm.",
+          "author": "Abraham Lincoln",
+          "day": 219
+      },
+      {
+          "quote": "If you love life, don't waste time, for time is what life is made up of.",
+          "author": "Bruce Lee",
+          "day": 220
+      },
+      {
+          "quote": "No matter how hard the past, you can always begin again.",
+          "author": "Buddha",
+          "day": 221
+      },
+      {
+          "quote": "Whoever is happy will make others happy too.",
+          "author": "Anne Frank",
+          "day": 222
+      },
+      {
+          "quote": "Things do not change, we change.",
+          "author": "Henry David Thoreau",
+          "day": 223
+      },
+      {
+          "quote": "Forgiveness is choosing to love. It is the first skill of self-giving love.",
+          "author": "Mahatma Gandhi",
+          "day": 224
+      },
+      {
+          "quote": "To ensure good health: eat lightly, breathe deeply, live moderately, cultivate cheerfulness, and maintain an interest in life.",
+          "author": "William Londen",
+          "day": 225
+      },
+      {
+          "quote": "We can only be said to be alive in those moments when our hearts are conscious of our treasures.",
+          "author": "Thornton Wilder",
+          "day": 226
+      },
+      {
+          "quote": "Kindness is the language which the deaf can hear and the blind can see.",
+          "author": "Mark Twain",
+          "day": 227
+      },
+      {
+          "quote": "If we could see the miracle of a single flower clearly, our whole life would change.",
+          "author": "Buddha",
+          "day": 228
+      },
+      {
+          "quote": "Keep your eyes on the stars and your feet on the ground.",
+          "author": "Theodore Roosevelt",
+          "day": 229
+      },
+      {
+          "quote": "I am not afraid of tomorrow, for I have seen yesterday and I love today.",
+          "author": "William White",
+          "day": 230
+      },
+      {
+          "quote": "Sunshine is delicious, rain is refreshing, wind braces us up, snow is exhilarating; there is really no such thing as bad weather, only different kinds of good weather.",
+          "author": "John Ruskin",
+          "day": 231
+      },
+      {
+          "quote": "We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves.",
+          "author": "Buddha",
+          "day": 232
+      },
+      {
+          "quote": "An optimist is a person who sees a green light everywhere, while the pessimist sees only the red spotlight... The truly wise person is colorblind.",
+          "author": "Albert Schweitzer",
+          "day": 233
+      },
+      {
+          "quote": "As we express our gratitude, we must never forget that the highest appreciation is not to utter words, but to live by them.",
+          "author": "John F. Kennedy",
+          "day": 234
+      },
+      {
+          "quote": "When I let go of what I am, I become what I might be.",
+          "author": "Lao Tzu",
+          "day": 235
+      },
+      {
+          "quote": "Neither a lofty degree of intelligence nor imagination nor both together go to the making of genius. Love, love, love, that is the soul of genius.",
+          "author": "Wolfgang Amadeus Mozart",
+          "day": 236
+      },
+      {
+          "quote": "You are the only person on Earth who can use your ability.",
+          "author": "Zig Ziglar",
+          "day": 237
+      },
+      {
+          "quote": "Enjoy the little things, for one day you may look back and realize they were the big things.",
+          "author": "Robert Brault",
+          "day": 238
+      },
+      {
+          "quote": "With every experience, you alone are painting your own canvas, thought by thought, choice by choice.",
+          "author": "Oprah Winfrey",
+          "day": 239
+      },
+      {
+          "quote": "Let the beauty of what you love be what you do.",
+          "author": "Rumi",
+          "day": 240
+      },
+      {
+          "quote": "As we grow as unique persons, we learn to respect the uniqueness of others.",
+          "author": "Robert Schuller",
+          "day": 241
+      },
+      {
+          "quote": "The happiness that is genuinely satisfying is accompanied by the fullest exercise of our faculties and the fullest realization of the world in which we live.",
+          "author": "Bertrand Russell",
+          "day": 242
+      },
+      {
+          "quote": "Beauty is not in the face; beauty is a light in the heart.",
+          "author": "Kahlil Gibran",
+          "day": 243
+      },
+      {
+          "quote": "You do not become good by trying to be good, but by finding the goodness that is already within you.",
+          "author": "Eckhart Tolle",
+          "day": 244
+      },
+      {
+          "quote": "Truth, and goodness, and beauty are but different faces of the same all.",
+          "author": "Ralph Waldo Emerson",
+          "day": 245
+      },
+      {
+          "quote": "Happiness often sneaks in through a door you didn't know you left open.",
+          "author": "John Barrymore",
+          "day": 246
+      },
+      {
+          "quote": "The things that one most wants to do are the things that are probably most worth doing.",
+          "author": "Winifred Holtby",
+          "day": 247
+      },
+      {
+          "quote": "Only through our connectedness to others can we really know and enhance the self. And only through working on the self can we begin to enhance our connectedness to others.",
+          "author": "Harriet Lerner",
+          "day": 248
+      },
+      {
+          "quote": "Peace begins with a smile.",
+          "author": "Mother Teresa",
+          "day": 249
+      },
+      {
+          "quote": "We're here for a reason. I believe a bit of the reason is to throw little torches out to lead people through the dark.",
+          "author": "Whoopi Goldberg",
+          "day": 250
+      },
+      {
+          "quote": "Never say there is nothing beautiful in the world anymore. There is always something to make you wonder in the shape of a tree, the trembling of a leaf.",
+          "author": "Albert Schweitzer",
+          "day": 251
+      },
+      {
+          "quote": "The smallest act of kindness is worth more than the grandest intention.",
+          "author": "Oscar Wilde",
+          "day": 252
+      },
+      {
+          "quote": "What do we live for, if it is not to make life less difficult for each other?",
+          "author": "George Eliot",
+          "day": 253
+      },
+      {
+          "quote": "When we feel love and kindness toward others, it not only makes others feel loved and cared for, but it helps us also to develop inner happiness and peace.",
+          "author": "Dalai Lama",
+          "day": 254
+      },
+      {
+          "quote": "We may encounter many defeats but we must not be defeated.",
+          "author": "Maya Angelou",
+          "day": 255
+      },
+      {
+          "quote": "To be happy is to be able to become aware of oneself without fright.",
+          "author": "Walter Benjamin",
+          "day": 256
+      },
+      {
+          "quote": "The world is but a canvas to the imagination.",
+          "author": "Henry David Thoreau",
+          "day": 257
+      },
+      {
+          "quote": "Kind words can be short and easy to speak, but their echoes are truly endless.",
+          "author": "Mother Teresa",
+          "day": 258
+      },
+      {
+          "quote": "The most important thing is transforming our minds, for a new way of thinking, a new outlook: we should strive to develop a new inner world.",
+          "author": "Dalai Lama",
+          "day": 259
+      },
+      {
+          "quote": "In rivers, the water that you touch is the last of what has passed and the first of that which comes; so with present time.",
+          "author": "Leonardo da Vinci",
+          "day": 260
+      },
+      {
+          "quote": "We make a living by what we get, but we make a life by what we give.",
+          "author": "Winston Churchill",
+          "day": 261
+      },
+      {
+          "quote": "If you want to study yourself, look into the hearts of other people. If you want to study other people, look into your own heart.",
+          "author": "Friedrich von Schiller",
+          "day": 262
+      },
+      {
+          "quote": "Thought is the blossom; language the bud; action the fruit behind it.",
+          "author": "Ralph Waldo Emerson",
+          "day": 263
+      },
+      {
+          "quote": "Neither genius, fame, nor love show the greatness of the soul. Only kindness can do that.",
+          "author": "Jean Lacordaire",
+          "day": 264
+      },
+      {
+          "quote": "I walk slowly, but I never walk backward.",
+          "author": "Abraham Lincoln",
+          "day": 265
+      },
+      {
+          "quote": "Compassion and happiness are not a sign of weakness but a sign of strength.",
+          "author": "Dalai Lama",
+          "day": 266
+      },
+      {
+          "quote": "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
+          "author": "Helen Keller",
+          "day": 267
+      },
+      {
+          "quote": "We can do no great things, only small things with great love.",
+          "author": "Mother Teresa",
+          "day": 268
+      },
+      {
+          "quote": "Be like the flower, turn your face to the sun.",
+          "author": "Kahlil Gibran",
+          "day": 269
+      },
+      {
+          "quote": "Gratitude is the fairest blossom which springs from the soul.",
+          "author": "Henry Ward Beecher",
+          "day": 270
+      },
+      {
+          "quote": "If you want things to be different, perhaps the answer is to become different yourself.",
+          "author": "Norman Peale",
+          "day": 271
+      },
+      {
+          "quote": "Kindness is more important than wisdom, and the recognition of this is the beginning of wisdom.",
+          "author": "Theodore Rubin",
+          "day": 272
+      },
+      {
+          "quote": "Three things in human life are important. The first is to be kind. The second is to be kind. The third is to be kind.",
+          "author": "Henry James",
+          "day": 273
+      },
+      {
+          "quote": "Our greatness lies not so much in being able to remake the world as being able to remake ourselves.",
+          "author": "Mahatma Gandhi",
+          "day": 274
+      },
+      {
+          "quote": "Gratitude is not only the greatest of virtues, but the parent of all the others.",
+          "author": "Cicero",
+          "day": 275
+      },
+      {
+          "quote": "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
+          "author": "Albert Einstein",
+          "day": 276
+      },
+      {
+          "quote": "You learn to speak by speaking, to study by studying, to run by running, to work by working; in just the same way, you learn to love by loving.",
+          "author": "Anatole France",
+          "day": 277
+      },
+      {
+          "quote": "There is only one happiness in life, to love and be loved.",
+          "author": "George Sand",
+          "day": 278
+      },
+      {
+          "quote": "Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love.",
+          "author": "Lao Tzu",
+          "day": 279
+      },
+      {
+          "quote": "See the positive side, the potential, and make an effort.",
+          "author": "Dalai Lama",
+          "day": 280
+      },
+      {
+          "quote": "By accepting yourself and being fully what you are, your presence can make others happy.",
+          "author": "Jane Roberts",
+          "day": 281
+      },
+      {
+          "quote": "Wrinkles should merely indicate where smiles have been.",
+          "author": "Mark Twain",
+          "day": 282
+      },
+      {
+          "quote": "Your attitude, not your aptitude, will determine your altitude.",
+          "author": "Zig Ziglar",
+          "day": 283
+      },
+      {
+          "quote": "Let yourself be silently drawn by the stronger pull of what you really love.",
+          "author": "Rumi",
+          "day": 284
+      },
+      {
+          "quote": "Forgiveness does not change the past, but it does enlarge the future.",
+          "author": "Paul Boese",
+          "day": 285
+      },
+      {
+          "quote": "Love does not consist of gazing at each other, but in looking together in the same direction.",
+          "author": "Antoine de Saint-Exupery",
+          "day": 286
+      },
+      {
+          "quote": "Be the change that you wish to see in the world.",
+          "author": "Mahatma Gandhi",
+          "day": 287
+      },
+      {
+          "quote": "The more you care, the stronger you can be.",
+          "author": "Jim Rohn",
+          "day": 288
+      },
+      {
+          "quote": "And as we let our own light shine, we unconsciously give other people permission to do the same.",
+          "author": "Nelson Mandela",
+          "day": 289
+      },
+      {
+          "quote": "Love is the master key that opens the gates of happiness.",
+          "author": "Oliver Holmes",
+          "day": 290
+      },
+      {
+          "quote": "Happiness does not come about only due to external circumstances; it mainly derives from inner attitudes.",
+          "author": "Dalai Lama",
+          "day": 291
+      },
+      {
+          "quote": "Better than a thousand hollow words, is one word that brings peace.",
+          "author": "Buddha",
+          "day": 292
+      },
+      {
+          "quote": "What the caterpillar calls the end of the world, the master calls a butterfly.",
+          "author": "Richard Bach",
+          "day": 293
+      },
+      {
+          "quote": "There is not one big cosmic meaning for all, there is only the meaning we each give to our life.",
+          "author": "Anais Nin",
+          "day": 294
+      },
+      {
+          "quote": "Time you enjoyed wasting was not wasted.",
+          "author": "John Lennon",
+          "day": 295
+      },
+      {
+          "quote": "You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.",
+          "author": "Albert Camus",
+          "day": 296
+      },
+      {
+          "quote": "If we look at the world with a love of life, the world will reveal its beauty to us.",
+          "author": "Daisaku Ikeda",
+          "day": 297
+      },
+      {
+          "quote": "Count your joys instead of your woes. Count your friends instead of your foes.",
+          "author": "",
+          "day": 298
+      },
+      {
+          "quote": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.",
+          "author": "Helen Keller",
+          "day": 299
+      },
+      {
+          "quote": "I have no special talent. I am only passionately curious.",
+          "author": "Albert Einstein",
+          "day": 300
+      },
+      {
+          "quote": "I endeavour to be wise when I cannot be merry, easy when I cannot be glad, content with what cannot be mended and patient when there is no redress.",
+          "author": "Elizabeth Montagu",
+          "day": 301
+      },
+      {
+          "quote": "To get the full value of joy you must have someone to divide it with.",
+          "author": "Mark Twain",
+          "day": 302
+      },
+      {
+          "quote": "Sometimes our fate resembles a fruit tree in winter. Who would think that those branches would turn green again and blossom, but we hope it, we know it.",
+          "author": "Johann Wolfgang von Goethe",
+          "day": 303
+      },
+      {
+          "quote": "If you have knowledge, let others light their candles in it.",
+          "author": "Margaret Fuller",
+          "day": 304
+      },
+      {
+          "quote": "I have an everyday religion that works for me. Love yourself first, and everything else falls into line.",
+          "author": "Lucille Ball",
+          "day": 305
+      },
+      {
+          "quote": "Slow down and enjoy life. It's not only the scenery you miss by going too fast, you also miss the sense of where you are going and why.",
+          "author": "Eddie Cantor",
+          "day": 306
+      },
+      {
+          "quote": "The true way to render ourselves happy is to love our work and find in it our pleasure.",
+          "author": "Francoise de Motteville",
+          "day": 307
+      },
+      {
+          "quote": "The only Zen you find on the tops of mountains is the Zen you bring up there.",
+          "author": "Robert M. Pirsig",
+          "day": 308
+      },
+      {
+          "quote": "Gratitude is riches. Complaint is poverty.",
+          "author": "Doris Day",
+          "day": 309
+      },
+      {
+          "quote": "The only way to have a friend is to be one.",
+          "author": "Ralph Waldo Emerson",
+          "day": 310
+      },
+      {
+          "quote": "Be grateful, not only for others, but for yourself.",
+          "author": "",
+          "day": 311
+      },
+      {
+          "quote": "There surely is in human nature an inherent propensity to extract all the good out of all the evil.",
+          "author": "Benjamin Haydon",
+          "day": 312
+      },
+      {
+          "quote": "The truest greatness lies in being kind, the truest wisdom in a happy mind.",
+          "author": "Ella Wheeler Wilcox",
+          "day": 313
+      },
+      {
+          "quote": "Gratitude makes sense of our past, brings peace for today, and creates a vision for tomorrow.",
+          "author": "Melody Beattie",
+          "day": 314
+      },
+      {
+          "quote": "I will prepare and some day my chance will come.",
+          "author": "Abraham Lincoln",
+          "day": 315
+      },
+      {
+          "quote": "Success is liking yourself, liking what you do, and liking how you do it.",
+          "author": "Maya Angelou",
+          "day": 316
+      },
+      {
+          "quote": "Gratitude is the sign of noble souls.",
+          "author": "Aesop",
+          "day": 317
+      },
+      {
+          "quote": "Good things come to people who wait, but better things come to those who go out and get them.",
+          "author": "",
+          "day": 318
+      },
+      {
+          "quote": "Don't count the days, make the days count.",
+          "author": "Muhammad Ali",
+          "day": 319
+      },
+      {
+          "quote": "The essence of all beautiful art, all great art, is gratitude.",
+          "author": "Friedrich Nietzsche",
+          "day": 320
+      },
+      {
+          "quote": "Learn to enjoy every minute of your life. Be happy now.",
+          "author": "Earl Nightingale",
+          "day": 321
+      },
+      {
+          "quote": "The meaning of life is to find your gift. The purpose of life is to give it away.",
+          "author": "",
+          "day": 322
+      },
+      {
+          "quote": "Peace comes from within. Do not seek it without.",
+          "author": "Buddha",
+          "day": 323
+      },
+      {
+          "quote": "We can only learn to love by loving.",
+          "author": "Iris Murdoch",
+          "day": 324
+      },
+      {
+          "quote": "One today is worth two tomorrows.",
+          "author": "Benjamin Franklin",
+          "day": 325
+      },
+      {
+          "quote": "Once you choose hope, anything's possible.",
+          "author": "Christopher Reeve",
+          "day": 326
+      },
+      {
+          "quote": "Be as you wish to seem.",
+          "author": "Socrates",
+          "day": 327
+      },
+      {
+          "quote": "What seems to us as bitter trials are often blessings in disguise.",
+          "author": "Oscar Wilde",
+          "day": 328
+      },
+      {
+          "quote": "We become what we think about most of the time, and that's the strangest secret.",
+          "author": "Earl Nightingale",
+          "day": 329
+      },
+      {
+          "quote": "Happiness is a butterfly, which when pursued, is always beyond your grasp, but which, if you will sit down quietly, may alight upon you.",
+          "author": "Nathaniel Hawthorne",
+          "day": 330
+      },
+      {
+          "quote": "Be thankful for what you have; you’ll end up having more. If you concentrate on what you don’t have, you will never, ever have enough.",
+          "author": "Oprah Winfrey",
+          "day": 331
+      },
+      {
+          "quote": "Thankfulness is the beginning of gratitude. Gratitude is the completion of thankfulness. Thankfulness may consist merely of words. Gratitude is shown in acts.",
+          "author": "Henri Frederic Amiel",
+          "day": 332
+      },
+      {
+          "quote": "Success is the sum of small efforts, repeated day-in and day-out.",
+          "author": "Robert Collier",
+          "day": 333
+      },
+      {
+          "quote": "Now is no time to think of what you do not have. Think of what you can do with what there is.",
+          "author": "Ernest Hemingway",
+          "day": 334
+      },
+      {
+          "quote": "You are, at this moment, standing right in the middle of your own acres of diamonds.",
+          "author": "Earl Nightingale",
+          "day": 335
+      },
+      {
+          "quote": "Have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.",
+          "author": "Steve Jobs",
+          "day": 336
+      },
+      {
+          "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+          "author": "Ralph Waldo Emerson",
+          "day": 337
+      },
+      {
+          "quote": "People will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+          "author": "Maya Angelou",
+          "day": 338
+      },
+      {
+          "quote": "What you truly acknowledge truly is yours. Invite your heart to be grateful and your thank-yous will be heard even when you don't use words.",
+          "author": "Pavithra Mehta",
+          "day": 339
+      },
+      {
+          "quote": "We all walk in the dark and each of us must learn to turn on his or her own light.",
+          "author": "Earl Nightingale",
+          "day": 340
+      },
+      {
+          "quote": "When I started counting my blessings, my whole life turned around.",
+          "author": "Willie Nelson",
+          "day": 341
+      },
+      {
+          "quote": "It's not what you look at that matters, it's what you see.",
+          "author": "Henry David Thoreau",
+          "day": 342
+      },
+      {
+          "quote": "Gratitude turns what we have into enough.",
+          "author": "",
+          "day": 343
+      },
+      {
+          "quote": "No one who achieves success does so without the help of others. The wise and confident acknowledge this help with gratitude.",
+          "author": "Alfred North Whitehead",
+          "day": 344
+      },
+      {
+          "quote": "Many people are alive but don’t touch the miracle of being alive.",
+          "author": "Thich Nhat Hanh",
+          "day": 345
+      },
+      {
+          "quote": "Nothing ever goes away until it has taught us what we need to know.",
+          "author": "Pema Chodron",
+          "day": 346
+      },
+      {
+          "quote": "We often take for granted the very things that most deserve our gratitude.",
+          "author": "Cynthia Ozick",
+          "day": 347
+      },
+      {
+          "quote": "Wherever you go, there you are.",
+          "author": "Jon Kabat-Zinn",
+          "day": 348
+      },
+      {
+          "quote": "Two kinds of gratitude: The sudden kind we feel for what we take; the larger kind we feel for what we give.",
+          "author": "Edwin Arlington Robinson",
+          "day": 349
+      },
+      {
+          "quote": "Live the actual moment. Only this actual moment is life.",
+          "author": "Thich Nhat Hanh",
+          "day": 350
+      },
+      {
+          "quote": "I don't want to get to the end of my life and find that I lived just the length of it. I want to have lived the width of it as well.",
+          "author": "Diane Ackerman",
+          "day": 351
+      },
+      {
+          "quote": "Always be mindful of the kindness and not the faults of others.",
+          "author": "Buddha",
+          "day": 352
+      },
+      {
+          "quote": "The best way to capture moments is to pay attention. This is how we cultivate mindfulness.",
+          "author": "Jon Kabat-Zinn",
+          "day": 353
+      },
+      {
+          "quote": "Gratitude helps you to grow and expand; gratitude brings joy and laughter into your life and into the lives of all those around you.",
+          "author": "Eileen Caddy",
+          "day": 354
+      },
+      {
+          "quote": "Good actions give strength to ourselves and inspire good actions in others.",
+          "author": "Plato",
+          "day": 355
+      },
+      {
+          "quote": "The present moment is the only time over which we have dominion.",
+          "author": "Thich Nhat Hanh",
+          "day": 356
+      },
+      {
+          "quote": "The root of joy is gratefulness.",
+          "author": "David Steindl-Rast",
+          "day": 357
+      },
+      {
+          "quote": "Gratitude is the sweetest thing in a seekers life – in all human life. If there is gratitude in your heart, then there will be tremendous sweetness in your eyes.",
+          "author": "Sri Chinmoy",
+          "day": 358
+      },
+      {
+          "quote": "The little things? The little moments? They aren’t little.",
+          "author": "Jon Kabat-Zinn",
+          "day": 359
+      },
+      {
+          "quote": "Gratitude is when memory is stored in the heart and not in the mind.",
+          "author": "Lionel Hampton",
+          "day": 360
+      },
+      {
+          "quote": "Life is a miracle, and being aware of simply this can already make us very happy.",
+          "author": "Thich Nhat Hanh",
+          "day": 361
+      },
+      {
+          "quote": "The greatest wealth is to live content with little.",
+          "author": "Plato",
+          "day": 362
+      },
+      {
+          "quote": "Train yourself never to put off the word or action for the expression of gratitude.",
+          "author": "Albert Schweitzer",
+          "day": 363
+      },
+      {
+          "quote": "Nothing is more honorable than a grateful heart.",
+          "author": "Seneca",
+          "day": 364
+      },
+      {
+          "quote": "Feeling gratitude and not expressing it is like wrapping a present and not giving it.",
+          "author": "William Arthur Ward",
+          "day": 365
+      },
+      {
+          "quote": "There is no way to happiness, happiness is the way.",
+          "author": "Thich Nhat Hanh",
+          "day": 366
+      }
+  ]
+}
