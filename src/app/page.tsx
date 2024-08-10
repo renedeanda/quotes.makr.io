@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import QuoteDisplay from '@/components/QuoteDisplay';
-import DynamicBackground from '@/components/DynamicBackground';
 
 const QuoteExplorer = dynamic(() => import('@/components/QuoteExplorer'), { ssr: false });
 const FavoriteQuotes = dynamic(() => import('@/components/FavoriteQuotes'), { ssr: false });
@@ -32,40 +31,39 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center p-4 overflow-hidden">
-      <DynamicBackground />
-      <div className="z-10 w-full max-w-4xl bg-white bg-opacity-10 backdrop-blur-lg rounded-xl shadow-2xl p-8">
-        <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 text-amber-500">
+      <div className="z-10 w-full max-w-4xl quote-container p-8">
+        <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 text-white">
           Inspirational Quotes
         </h1>
         {currentQuote && <QuoteDisplay quote={currentQuote} />}
         <div className="flex flex-wrap justify-center gap-4 mt-8">
           <button
             onClick={() => setMode('daily')}
-            className="px-6 py-2 bg-amber-500 text-white rounded-full hover:bg-amber-600 transition-colors"
+            className="px-6 py-2 bg-white bg-opacity-20 text-white rounded-full hover:bg-opacity-30 transition-colors"
           >
             Daily Quote
           </button>
           <button
             onClick={getRandomQuote}
-            className="px-6 py-2 bg-amber-500 text-white rounded-full hover:bg-amber-600 transition-colors"
+            className="px-6 py-2 bg-white bg-opacity-20 text-white rounded-full hover:bg-opacity-30 transition-colors"
           >
             Random Quote
           </button>
           <button
             onClick={() => setMode('explore')}
-            className="px-6 py-2 bg-amber-500 text-white rounded-full hover:bg-amber-600 transition-colors"
+            className="px-6 py-2 bg-white bg-opacity-20 text-white rounded-full hover:bg-opacity-30 transition-colors"
           >
             Explore Quotes
           </button>
           <button
             onClick={() => setMode('favorites')}
-            className="px-6 py-2 bg-amber-500 text-white rounded-full hover:bg-amber-600 transition-colors"
+            className="px-6 py-2 bg-white bg-opacity-20 text-white rounded-full hover:bg-opacity-30 transition-colors"
           >
             Favorites
           </button>
           <button
             onClick={() => setMode('share')}
-            className="px-6 py-2 bg-amber-500 text-white rounded-full hover:bg-amber-600 transition-colors"
+            className="px-6 py-2 bg-white bg-opacity-20 text-white rounded-full hover:bg-opacity-30 transition-colors"
           >
             Create Shareable
           </button>
