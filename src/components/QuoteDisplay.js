@@ -24,10 +24,11 @@ const QuoteDisplay = ({ quote }) => {
   return (
     <div className="text-center">
       <p className="quote-text mb-4">{quote.quote}</p>
-      <p className="author-text">- {quote.author}</p>
+      <p className="author-text mb-4">- {quote.author}</p>
       <button
         onClick={toggleFavorite}
-        className="mt-4 text-white hover:text-yellow-300 transition-colors"
+        className="favorite-button mt-4 transition-colors"
+        aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
       >
         {isFavorite ? '★ Favorited' : '☆ Add to Favorites'}
       </button>

@@ -5,7 +5,7 @@ def update_file(path, content):
         f.write(content)
     print(f"Updated file: {path}")
 
-def improve_accessibility():
+def implement_darker_gradient():
     # Update global styles
     globals_css_content = '''
 @tailwind base;
@@ -13,9 +13,8 @@ def improve_accessibility():
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 44, 62, 80;
-  --background-start-rgb: 255, 183, 197;
-  --background-end-rgb: 209, 236, 255;
+  --background-start-rgb: 142, 68, 173;
+  --background-end-rgb: 41, 128, 185;
 }
 
 html, body {
@@ -25,7 +24,6 @@ html, body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom, 
               rgb(var(--background-start-rgb)),
               rgb(var(--background-end-rgb))) no-repeat center center fixed;
@@ -33,13 +31,14 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  color: #ffffff;
 }
 
-.glass-morphism {
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(10px);
+.content-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -47,85 +46,40 @@ body {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 600;
-  color: rgb(44, 62, 80);
 }
 
 .author-text {
   font-size: 1.1rem;
   font-style: italic;
-  color: rgb(52, 73, 94);
+  color: #e0e0e0;
 }
 
 .button {
   @apply px-4 py-2 rounded-full transition-all duration-300 ease-in-out;
-  background: rgba(52, 152, 219, 0.7);
+  background: rgba(255, 255, 255, 0.2);
   color: white;
   font-weight: 600;
-  backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .button:hover {
-  background: rgba(52, 152, 219, 0.9);
+  background: rgba(255, 255, 255, 0.3);
   transform: translateY(-2px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .favorite-button {
-  color: rgb(52, 152, 219);
+  color: #ffd700;
   font-weight: 600;
 }
 
 .favorite-button:hover {
-  color: rgb(41, 128, 185);
+  color: #ffee58;
 }
 '''
     update_file('src/app/globals.css', globals_css_content)
 
-    # Update QuoteDisplay component
-    quote_display_content = '''
-import { useState, useEffect } from 'react';
-
-const QuoteDisplay = ({ quote }) => {
-  const [isFavorite, setIsFavorite] = useState(false);
-
-  useEffect(() => {
-    const favorites = JSON.parse(localStorage.getItem('favoriteQuotes') || '[]');
-    setIsFavorite(favorites.some(fav => fav.quote === quote.quote));
-  }, [quote]);
-
-  const toggleFavorite = () => {
-    const favorites = JSON.parse(localStorage.getItem('favoriteQuotes') || '[]');
-    if (isFavorite) {
-      const newFavorites = favorites.filter(fav => fav.quote !== quote.quote);
-      localStorage.setItem('favoriteQuotes', JSON.stringify(newFavorites));
-    } else {
-      favorites.push(quote);
-      localStorage.setItem('favoriteQuotes', JSON.stringify(favorites));
-    }
-    setIsFavorite(!isFavorite);
-  };
-
-  return (
-    <div className="text-center">
-      <p className="quote-text mb-4">{quote.quote}</p>
-      <p className="author-text mb-4">- {quote.author}</p>
-      <button
-        onClick={toggleFavorite}
-        className="favorite-button mt-4 transition-colors"
-        aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
-      >
-        {isFavorite ? '★ Favorited' : '☆ Add to Favorites'}
-      </button>
-    </div>
-  );
-};
-
-export default QuoteDisplay;
-'''
-    update_file('src/components/QuoteDisplay.js', quote_display_content)
-
-    # Update page component
+    # Update page component (minimal changes, just ensuring consistency)
     page_content = '''
 "use client";
 import { useState, useEffect } from 'react';
@@ -156,8 +110,8 @@ export default function Home() {
   };
 
   return (
-    <div className="w-full max-w-4xl glass-morphism p-8">
-      <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 text-gray-800">
+    <div className="w-full max-w-4xl content-container p-8">
+      <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 text-white">
         Inspirational Quotes
       </h1>
       {currentQuote && <QuoteDisplay quote={currentQuote} />}
@@ -177,7 +131,7 @@ export default function Home() {
 '''
     update_file('src/app/page.js', page_content)
 
-    print("Website accessibility and readability improved!")
+    print("Darker gradient background implemented successfully!")
 
 if __name__ == "__main__":
-    improve_accessibility()
+    implement_darker_gradient()

@@ -28,7 +28,7 @@ export default function Home() {
   };
 
   return (
-    <div className="w-full max-w-4xl glass-morphism p-8">
+    <div className="w-full max-w-4xl content-container p-8">
       <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 text-white">
         Inspirational Quotes
       </h1>
