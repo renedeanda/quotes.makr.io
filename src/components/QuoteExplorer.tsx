@@ -17,7 +17,7 @@ const QuoteExplorer = ({ quotes, setCurrentQuote }) => {
         placeholder="Search quotes..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        className="w-full p-2 rounded-md bg-white bg-opacity-20 text-amber-100 placeholder-amber-200"
+        className="w-full p-2 rounded-md bg-white bg-opacity-20 text-white placeholder-blue-200"
       />
       <div className="mt-4 max-h-96 overflow-y-auto">
         {filteredQuotes.map((quote, index) => (
@@ -29,8 +29,8 @@ const QuoteExplorer = ({ quotes, setCurrentQuote }) => {
             className="bg-white bg-opacity-10 p-4 rounded-md mb-4 cursor-pointer hover:bg-opacity-20 transition-colors"
             onClick={() => setCurrentQuote(quote)}
           >
-            <p className="text-amber-100">{quote.quote}</p>
-            <p className="text-amber-300 text-sm mt-2">- {quote.author}</p>
+            <p className="text-white">{quote.quote}</p>
+            <p className="text-gray-200 text-sm mt-2">- {quote.author}</p>
           </motion.div>
         ))}
       </div>

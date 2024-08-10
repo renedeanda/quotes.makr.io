@@ -37,9 +37,6 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center p-4 overflow-hidden">
       <div className="z-10 w-full max-w-4xl quote-container p-8">
-        <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 text-white">
-          Inspirational Quotes
-        </h1>
         {currentQuote && <QuoteDisplay quote={currentQuote} />}
         <div className="flex flex-wrap justify-center gap-4 mt-8">
           <button

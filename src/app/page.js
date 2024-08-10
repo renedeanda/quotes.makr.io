@@ -33,19 +33,16 @@ export default function Home() {
   };
 
   return (
-    <div className="w-full max-w-4xl content-container p-8">
-      <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 text-white">
-        Inspirational Quotes
-      </h1>
-      <div className="flex flex-col items-center">
+    <div className="w-full max-w-4xl content-container p-8 flex flex-col justify-center min-h-screen">
+      <div className="flex-grow flex flex-col justify-center">
         {currentQuote && <QuoteDisplay quote={currentQuote} />}
-        <div className="flex flex-wrap justify-center gap-4 mt-4 mb-4">
-          <button onClick={() => setDailyQuote(quotes)} className="button">Daily Quote</button>
-          <button onClick={getRandomQuote} className="button">Random Quote</button>
-          <button onClick={() => setMode('explore')} className="button">Explore Quotes</button>
-          <button onClick={() => setMode('favorites')} className="button">Favorites</button>
-          <button onClick={() => setMode('share')} className="button">Create Shareable</button>
-        </div>
+      </div>
+      <div className="flex flex-wrap justify-center gap-4 mt-8">
+        <button onClick={() => setDailyQuote(quotes)} className="button">Daily Quote</button>
+        <button onClick={getRandomQuote} className="button">Random Quote</button>
+        <button onClick={() => setMode('explore')} className="button">Explore Quotes</button>
+        <button onClick={() => setMode('favorites')} className="button">Favorites</button>
+        <button onClick={() => setMode('share')} className="button">Create Shareable</button>
       </div>
       {mode === 'explore' && <QuoteExplorer quotes={quotes} setCurrentQuote={setCurrentQuote} />}
       {mode === 'favorites' && <FavoriteQuotes />}

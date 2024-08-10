@@ -10,10 +10,10 @@
       font-family: Arial, sans-serif;
       font-size: 80px;
       font-weight: bold;
-      fill: #f59e0b;
+      fill: #ffffff;
       animation: pulse 2s infinite;
     }
   </style>
-  <circle cx="50" cy="50" r="45" fill="#f59e0b" opacity="0.2" />
-  <text x="50" y="70" text-anchor="middle" class="quote-mark">"</text>
+  <circle cx="50" cy="50" r="45" fill="#8E44AD" />
+  <text x="50" y="70" text-anchor="middle" dominant-baseline="central" class="quote-mark">"</text>
 </svg>
