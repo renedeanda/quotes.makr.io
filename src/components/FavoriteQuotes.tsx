@@ -10,7 +10,7 @@ const FavoriteQuotes = () => {
     setFavorites(storedFavorites);
   }, []);
 
-  const removeFavorite = (quote: never) => {
+  const removeFavorite = (quote: any[]) => {
     const newFavorites = favorites.filter(fav => fav.quote !== quote.quote);
     setFavorites(newFavorites);
     localStorage.setItem('favoriteQuotes', JSON.stringify(newFavorites));
