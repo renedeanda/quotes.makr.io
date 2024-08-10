@@ -8,13 +8,13 @@ export const metadata = {
   title: 'Inspirational Quotes - Daily Motivation',
   description: 'Discover daily inspirational quotes to motivate and uplift your spirit. Find wisdom, courage, and positivity in our curated collection of quotes from great thinkers and leaders.',
   keywords: 'inspirational quotes, motivation, daily quotes, wisdom, personal growth',
-  author: 'Your Name or Company',
+  author: 'Rene DeAnda',
   openGraph: {
     title: 'Inspirational Quotes - Daily Motivation',
     description: 'Find daily inspiration and motivation with our curated quotes.',
     images: [
       {
-        url: 'https://yourwebsite.com/og-image.jpg',
+        url: 'https://quotes.makr.io/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Inspirational Quotes',
@@ -25,7 +25,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Inspirational Quotes - Daily Motivation',
     description: 'Find daily inspiration and motivation with our curated quotes.',
-    images: ['https://yourwebsite.com/twitter-image.jpg'],
+    images: ['https://quotes.makr.io/twitter-image.jpg'],
   },
 }
 

@@ -16,10 +16,15 @@ export default function Home() {
       .then(response => response.json())
       .then(data => {
         setQuotes(data.quotes);
-        const today = new Date().getDate();
-        setCurrentQuote(data.quotes.find(q => q.day === today));
+        setDailyQuote(data.quotes);
       });
   }, []);
+
+  const setDailyQuote = (quotes) => {
+    const today = new Date().getDate();
+    const todayQuote = quotes.find(q => q.day === today);
+    setCurrentQuote(todayQuote);
+  };
 
   const getRandomQuote = () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
@@ -32,13 +37,15 @@ export default function Home() {
       <h1 className="text-4xl md:text-6xl font-bold text-center mb-8 text-white">
         Inspirational Quotes
       </h1>
-      {currentQuote && <QuoteDisplay quote={currentQuote} />}
-      <div className="flex flex-wrap justify-center gap-4 mt-8">
-        <button onClick={() => setMode('daily')} className="button">Daily Quote</button>
-        <button onClick={getRandomQuote} className="button">Random Quote</button>
-        <button onClick={() => setMode('explore')} className="button">Explore Quotes</button>
-        <button onClick={() => setMode('favorites')} className="button">Favorites</button>
-        <button onClick={() => setMode('share')} className="button">Create Shareable</button>
+      <div className="flex flex-col items-center">
+        {currentQuote && <QuoteDisplay quote={currentQuote} />}
+        <div className="flex flex-wrap justify-center gap-4 mt-4 mb-4">
+          <button onClick={() => setDailyQuote(quotes)} className="button">Daily Quote</button>
+          <button onClick={getRandomQuote} className="button">Random Quote</button>
+          <button onClick={() => setMode('explore')} className="button">Explore Quotes</button>
+          <button onClick={() => setMode('favorites')} className="button">Favorites</button>
+          <button onClick={() => setMode('share')} className="button">Create Shareable</button>
+        </div>
       </div>
       {mode === 'explore' && <QuoteExplorer quotes={quotes} setCurrentQuote={setCurrentQuote} />}
       {mode === 'favorites' && <FavoriteQuotes />}

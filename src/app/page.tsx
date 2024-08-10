@@ -18,10 +18,15 @@ export default function Home() {
       .then(response => response.json())
       .then(data => {
         setQuotes(data.quotes);
-        const today = new Date().getDate();
-        setCurrentQuote(data.quotes.find(q => q.day === today));
+        setDailyQuote(data.quotes);
       });
   }, []);
+
+  const setDailyQuote = (quotes: any[]) => {
+    const today = new Date().getDate();
+    const todayQuote = quotes.find(q => q.day === today);
+    setCurrentQuote(todayQuote);
+  };
 
   const getRandomQuote = () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
@@ -38,7 +43,7 @@ export default function Home() {
         {currentQuote && <QuoteDisplay quote={currentQuote} />}
         <div className="flex flex-wrap justify-center gap-4 mt-8">
           <button
-            onClick={() => setMode('daily')}
+            onClick={() => setDailyQuote(quotes)}
             className="px-6 py-2 bg-white bg-opacity-20 text-white rounded-full hover:bg-opacity-30 transition-colors"
           >
             Daily Quote

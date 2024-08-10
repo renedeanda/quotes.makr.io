@@ -37,6 +37,7 @@ body {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .author-text {
@@ -57,13 +58,4 @@ body {
   background: rgba(255, 255, 255, 0.3);
   transform: translateY(-2px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.favorite-button {
-  color: #ffd700;
-  font-weight: 600;
-}
-
-.favorite-button:hover {
-  color: #ffee58;
 }

@@ -37,13 +37,13 @@ const ShareableQuote = ({ quote }) => {
 
   return (
     <motion.div 
-      className="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg"
+      className="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg mt-8 mb-8"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
     >
       <div 
         ref={quoteRef} 
-        className={`${getQuoteStyles()} bg-gradient-to-t from-pink-500 to-blue-500 p-4 rounded-lg flex flex-col justify-center items-center`}
+        className={`${getQuoteStyles()} bg-gradient-to-t from-pink-400 to-blue-400 p-4 rounded-lg flex flex-col justify-center items-center`}
       >
         <p className="text-white mb-2 text-center">{quote.quote}</p>
         <p className="text-blue-200 text-sm">- {quote.author}</p>
