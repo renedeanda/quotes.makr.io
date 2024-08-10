@@ -20,7 +20,7 @@ const FavoriteQuotes = () => {
     <div className="mt-8">
       <h2 className="text-2xl font-bold text-white mb-4">Your Favorite Quotes</h2>
       {favorites.length === 0 ? (
-        <p className="text-gray-200">You haven't added any favorites yet.</p>
+        <p className="text-gray-200">You haven&#39;t added any favorites yet.</p>
       ) : (
         <div className="space-y-4">
           {favorites.map((quote, index) => (
