@@ -5,37 +5,19 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Inspirational Quotes - Daily Motivation',
-  description: 'Discover daily inspirational quotes to motivate and uplift your spirit. Find wisdom, courage, and positivity in our curated collection of quotes from great thinkers and leaders.',
-  keywords: 'inspirational quotes, motivation, daily quotes, wisdom, personal growth',
-  author: 'Rene DeAnda',
-  openGraph: {
-    title: 'Inspirational Quotes - Daily Motivation',
-    description: 'Find daily inspiration and motivation with our curated quotes.',
-    images: [
-      {
-        url: 'https://quotes.makr.io/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Inspirational Quotes',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Inspirational Quotes - Daily Motivation',
-    description: 'Find daily inspiration and motivation with our curated quotes.',
-    images: ['https://quotes.makr.io/twitter-image.jpg'],
-  },
+  title: 'Inspirational Quotes',
+  description: 'Daily inspiration and motivational quotes',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="min-h-screen p-4 md:p-8 flex flex-col items-center justify-center">
-          {children}
-        </main>
+        <div className="min-h-screen bg-gradient-to-b from-[#8E44AD] to-[#2980B9] overflow-y-auto">
+          <main className="container mx-auto px-4 py-8">
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   )

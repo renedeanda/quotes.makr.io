@@ -74,6 +74,12 @@ export default function Home() {
         {mode === 'favorites' && <FavoriteQuotes />}
         {mode === 'share' && currentQuote && <ShareableQuote quote={currentQuote} />}
       </div>
+      <footer className="text-center text-white py-4">
+        Start your day with a smile—try the <a href="https://delightfuljournal.com/?utm_source=quotes" className="text-blue-300 hover:underline">Delightful Gratitude Journal</a>.
+        <br />
+        &copy; {new Date().getFullYear()} Crafted with 🧡 + 🤖 by the <a href="https://rede.io/?utm_source=quotes" className="text-blue-300 hover:underline">Rede team</a>.
+      </footer>
+
     </main>
   );
 }
