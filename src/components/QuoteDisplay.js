@@ -1,8 +1,9 @@
-
+"use client";
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
-const QuoteDisplay = ({ quote }) => {
+const QuoteDisplay = ({ quote, showLink = false }) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
   useEffect(() => {
@@ -22,6 +23,8 @@ const QuoteDisplay = ({ quote }) => {
     setIsFavorite(!isFavorite);
   };
 
+  const quoteLink = `/${quote.author.replace(/\s+/g, '-').toLowerCase()}/${quote.quote.slice(0, 50).replace(/\s+/g, '-').toLowerCase()}`;
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -37,6 +40,11 @@ const QuoteDisplay = ({ quote }) => {
       >
         {isFavorite ? '❤️ Favorited' : '🤍 Add to Favorites'}
       </button>
+      {showLink && (
+        <Link href={quoteLink} className="block mt-4 text-blue-300 hover:text-blue-400 transition-colors text-lg">
+          Permanent link to this quote
+        </Link>
+      )}
     </motion.div>
   );
 };
