@@ -2,6 +2,13 @@ import { notFound } from 'next/navigation'
 import QuoteDisplay from '@/components/QuoteDisplay'
 import getAllQuotes from '@/utils/getAllQuotes'
 
+function createSlug(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 export async function generateStaticParams() {
   const quotes = await getAllQuotes()
   
@@ -10,24 +17,18 @@ export async function generateStaticParams() {
     return []
   }
 
-  return quotes.map((quote) => {
-    const author = quote.author.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '')
-    const quoteSlug = quote.quote.slice(0, 50).replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '')
-    return {
-      author,
-      quote: quoteSlug,
-    }
-  })
+  return quotes.map((quote) => ({
+    author: createSlug(quote.author),
+    quote: createSlug(quote.quote.slice(0, 50))
+  }))
 }
 
 export async function generateMetadata({ params }) {
   const quotes = await getAllQuotes()
   const quote = quotes.find(
-    (q) => {
-      const author = q.author.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '')
-      const quoteSlug = q.quote.slice(0, 50).replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '')
-      return author === params.author && quoteSlug === params.quote
-    }
+    (q) => 
+      createSlug(q.author) === params.author &&
+      createSlug(q.quote.slice(0, 50)) === params.quote
   )
 
   if (!quote) {
@@ -43,11 +44,9 @@ export async function generateMetadata({ params }) {
 export default async function QuotePage({ params }) {
   const quotes = await getAllQuotes()
   const quote = quotes.find(
-    (q) => {
-      const author = q.author.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '')
-      const quoteSlug = q.quote.slice(0, 50).replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '')
-      return author === params.author && quoteSlug === params.quote
-    }
+    (q) => 
+      createSlug(q.author) === params.author &&
+      createSlug(q.quote.slice(0, 50)) === params.quote
   )
 
   if (!quote) {
