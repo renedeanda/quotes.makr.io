@@ -3,7 +3,7 @@ import QuoteDisplay from '@/components/QuoteDisplay'
 import getAllQuotes from '@/utils/getAllQuotes'
 
 function createSlug(text) {
-  return text
+  return (text || 'unknown')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
@@ -36,8 +36,8 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${quote.quote.slice(0, 50)}... - ${quote.author}`,
-    description: `Inspirational quote by ${quote.author}: "${quote.quote}"`,
+    title: `${quote.quote.slice(0, 50)}... - ${quote.author || 'Unknown'}`,
+    description: `Inspirational quote by ${quote.author || 'Unknown'}: "${quote.quote}"`,
   }
 }
 
@@ -56,7 +56,7 @@ export default async function QuotePage({ params }) {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 overflow-hidden">
       <div className="z-10 w-full max-w-4xl quote-container p-8">
-        <QuoteDisplay quote={quote} />
+        <QuoteDisplay quote={{...quote, author: quote.author || 'Unknown'}} />
       </div>
     </div>
   )
