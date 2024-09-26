@@ -32,7 +32,7 @@ const QuoteDisplay = ({ quote, showLink = false }) => {
 
   const authorSlug = createSlug(quote.author);
   const quoteSlug = createSlug(quote.quote.slice(0, 50));
-  const quoteLink = `/${authorSlug}/${quoteSlug}`;
+  const quoteLink = `${authorSlug}/${quoteSlug}`;
 
   return (
     <motion.div
@@ -50,7 +50,7 @@ const QuoteDisplay = ({ quote, showLink = false }) => {
         {isFavorite ? '❤️ Favorited' : '🤍 Add to Favorites'}
       </button>
       {showLink && (
-        <Link href={quoteLink} className="block mt-4 text-blue-300 hover:text-blue-400 transition-colors text-lg">
+        <Link href={`/${quoteLink}`} className="block mt-4 text-blue-300 hover:text-blue-400 transition-colors text-lg">
           Permanent link to this quote
         </Link>
       )}
