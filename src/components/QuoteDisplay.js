@@ -3,6 +3,13 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
+function createSlug(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 const QuoteDisplay = ({ quote, showLink = false }) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
@@ -23,8 +30,8 @@ const QuoteDisplay = ({ quote, showLink = false }) => {
     setIsFavorite(!isFavorite);
   };
 
-  const authorSlug = quote.author.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '');
-  const quoteSlug = quote.quote.slice(0, 50).replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '');
+  const authorSlug = createSlug(quote.author);
+  const quoteSlug = createSlug(quote.quote.slice(0, 50));
   const quoteLink = `/${authorSlug}/${quoteSlug}`;
 
   return (
