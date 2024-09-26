@@ -5,6 +5,11 @@ import getAllQuotes from '@/utils/getAllQuotes'
 export async function generateStaticParams() {
   const quotes = await getAllQuotes()
   
+  if (!Array.isArray(quotes) || quotes.length === 0) {
+    console.error('No quotes found or quotes is not an array')
+    return []
+  }
+
   return quotes.map((quote) => ({
     author: quote.author.replace(/\s+/g, '-').toLowerCase(),
     quote: quote.quote.slice(0, 50).replace(/\s+/g, '-').toLowerCase(),
