@@ -23,7 +23,9 @@ const QuoteDisplay = ({ quote, showLink = false }) => {
     setIsFavorite(!isFavorite);
   };
 
-  const quoteLink = `/${quote.author.replace(/\s+/g, '-').toLowerCase()}/${quote.quote.slice(0, 50).replace(/\s+/g, '-').toLowerCase()}`;
+  const authorSlug = quote.author.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '');
+  const quoteSlug = quote.quote.slice(0, 50).replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '');
+  const quoteLink = `/${authorSlug}/${quoteSlug}`;
 
   return (
     <motion.div
