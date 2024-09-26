@@ -18,7 +18,7 @@ export default function QuotePageClient({ initialQuotes }) {
 
   const setDailyQuote = (quotes) => {
     const today = new Date().getDate();
-    const todayQuote = quotes.find(q => q.day === today);
+    const todayQuote = quotes.find(q => q.day === today % quotes.length + 1);
     setCurrentQuote(todayQuote);
   };
 
