@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import Link from 'next/link';
 import QuoteDisplay from '@/components/QuoteDisplay';
 
 const QuoteExplorer = dynamic(() => import('@/components/QuoteExplorer'), { ssr: false });
@@ -32,14 +31,7 @@ export default function QuotePageClient({ initialQuotes }) {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center p-4 overflow-hidden">
       <div className="z-10 w-full max-w-4xl quote-container p-8">
-        {currentQuote && (
-          <>
-            <QuoteDisplay quote={currentQuote} />
-            <Link href={`/${currentQuote.author.replace(/\s+/g, '-').toLowerCase()}/${currentQuote.quote.slice(0, 50).replace(/\s+/g, '-').toLowerCase()}`} className="text-blue-300 hover:underline mt-2 block">
-              Permanent link to this quote
-            </Link>
-          </>
-        )}
+        {currentQuote && <QuoteDisplay quote={currentQuote} showLink={true} />}
         <div className="flex flex-wrap justify-center gap-4 mt-8">
           <button
             onClick={() => setDailyQuote(quotes)}
