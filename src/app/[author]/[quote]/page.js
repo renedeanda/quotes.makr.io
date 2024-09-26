@@ -10,18 +10,24 @@ export async function generateStaticParams() {
     return []
   }
 
-  return quotes.map((quote) => ({
-    author: quote.author.replace(/\s+/g, '-').toLowerCase(),
-    quote: quote.quote.slice(0, 50).replace(/\s+/g, '-').toLowerCase(),
-  }))
+  return quotes.map((quote) => {
+    const author = quote.author.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '')
+    const quoteSlug = quote.quote.slice(0, 50).replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '')
+    return {
+      author,
+      quote: quoteSlug,
+    }
+  })
 }
 
 export async function generateMetadata({ params }) {
   const quotes = await getAllQuotes()
   const quote = quotes.find(
-    (q) => 
-      q.author.replace(/\s+/g, '-').toLowerCase() === params.author &&
-      q.quote.slice(0, 50).replace(/\s+/g, '-').toLowerCase() === params.quote
+    (q) => {
+      const author = q.author.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '')
+      const quoteSlug = q.quote.slice(0, 50).replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '')
+      return author === params.author && quoteSlug === params.quote
+    }
   )
 
   if (!quote) {
@@ -37,9 +43,11 @@ export async function generateMetadata({ params }) {
 export default async function QuotePage({ params }) {
   const quotes = await getAllQuotes()
   const quote = quotes.find(
-    (q) => 
-      q.author.replace(/\s+/g, '-').toLowerCase() === params.author &&
-      q.quote.slice(0, 50).replace(/\s+/g, '-').toLowerCase() === params.quote
+    (q) => {
+      const author = q.author.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '')
+      const quoteSlug = q.quote.slice(0, 50).replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '')
+      return author === params.author && quoteSlug === params.quote
+    }
   )
 
   if (!quote) {
