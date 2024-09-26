@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 
 function createSlug(text) {
-  return text
+  return (text || 'unknown')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
@@ -42,7 +42,7 @@ const QuoteDisplay = ({ quote, showLink = false }) => {
       className="text-center"
     >
       <p className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white leading-tight">{quote.quote}</p>
-      <p className="text-xl md:text-2xl text-gray-200 mb-4">- {quote.author}</p>
+      <p className="text-xl md:text-2xl text-gray-200 mb-4">- {quote.author || 'Unknown'}</p>
       <button
         onClick={toggleFavorite}
         className="mt-4 text-blue-300 hover:text-blue-400 transition-colors text-lg"
