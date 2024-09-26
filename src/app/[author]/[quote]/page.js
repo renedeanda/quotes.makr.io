@@ -41,5 +41,11 @@ export default async function QuotePage({ params }) {
     notFound()
   }
 
-  return <QuoteDisplay quote={quote} />
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center p-4 overflow-hidden">
+      <div className="z-10 w-full max-w-4xl quote-container p-8">
+        <QuoteDisplay quote={quote} />
+      </div>
+    </div>
+  )
 }
